@@ -16,14 +16,15 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-
-
 from django.http import HttpResponse  # ← this is needed to define a simple response
+
 #def home(request):
     #return HttpResponse("Welcome to the Book Catalog API. Try /api/books/")
 
 
+#/books/
 
+#Starts all with /api/books/...
 
 urlpatterns = [
     #path('', home),  # <--- this line?
