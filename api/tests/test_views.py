@@ -19,7 +19,7 @@ class HealthViewTest(APITestCase):
         response = self.client.get(url, format='json')  
         assert response.status_code == status.HTTP_200_OK
         body = response.json()
-        assert body ['hello'] == 'OK'
+        assert body ['status'] == 'OK'
 
         
 
